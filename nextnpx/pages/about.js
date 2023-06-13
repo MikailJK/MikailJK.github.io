@@ -23,7 +23,7 @@ export default function About() {
             <div><h2>About</h2></div>
             
 
-            <div className={styles.body_sub}>
+            <div className={styles.body_about}>
               <Image className={styles.img} src="/profile.jpg" width={2048} height={2048}/>
 
               <div className={styles.content}>
@@ -50,7 +50,39 @@ export default function About() {
               
             </div>     
 
-            <div><h2>Education</h2></div>
+            <div><h2>Skills</h2></div>
+
+            <div className={styles.body_skills}>
+              {/* <Image className={styles.ncsuimg} src="/NCSU.png" width={324} height={156}/> */}
+
+              <div className={styles.skills_content}>
+
+                <div className={styles.info}>
+                    <ul>
+                      <li><b>Python</b></li>
+                      <li><b>Java</b></li>
+                      <li><b>JavaScript</b></li>
+                    </ul>
+                    <ul>
+                      <li><b>C++</b></li>
+                      <li><b>C#</b></li>
+                      <li><b>C</b></li>
+                    </ul>
+                    <ul>
+                      <li><b>Git</b></li>
+                      <li><b>Visual Studio Code</b></li>
+                      <li><b>React</b></li>
+                    </ul>
+                    <ul>
+                      <li><b>Microsoft Azure</b></li>
+                      <li><b>Databricks</b></li>
+                      <li><b>PySpark</b></li>
+                    </ul>
+                </div>
+                
+              </div>  
+              
+            </div>
 
         </div>
 

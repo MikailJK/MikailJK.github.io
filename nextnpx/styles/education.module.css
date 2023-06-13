@@ -53,6 +53,9 @@
     display: inline-flex;
 }
 
+.body_education{
+    display: inline-flex;
+}
 
 .content{
     margin-left: 5vw;
@@ -60,9 +63,7 @@
     font-weight: 10
 }
 
-.skills_content{
-    text-align: center;
-}
+
 
 .info{
     padding-top: 20px;

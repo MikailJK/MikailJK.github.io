@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Head from 'next/head'
-import styles from '../styles/about.module.css'
+import styles from '../styles/education.module.css'
 import NavBar from './posts/nav_bar';
+import Image from 'next/Image';
 
 
 export default function Education() {
@@ -11,18 +12,66 @@ export default function Education() {
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com"/> 
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet"/>
         </Head>
 
-          <NavBar/>
-  
-          <h1><Link href="/">This is the education page</Link></h1>         
-  
-          <div class={styles.about}>
-              <a href="https://www.linkedin.com/in/mikail-krochta-1216691a2/" target="_blank" class="linkedin">LinkedIn<i class="bx bxl-linkedin"></i></a>
-              <a href="https://www.github.com/milkyk" target="_blank" class="github">GitHub<i class="bx bxl-github"></i></a>
-              <a href="mailto:mikailkrochta@gmail.com" target="_blank" class="google">Email<i class="bx bxl-google"></i></a>
-          </div>
+        <NavBar className={styles.nav}/>
+
+        
+        <div className={styles.body}>
+     
+
+            <div><h2>Education</h2></div>
+
+            <div className={styles.body_education}>
+              <Image className={styles.ncsuimg} src="/NCSU.png" width={324} height={156}/>
+
+              <div className={styles.content}>
+                <p>
+                Bachelors of Science Degree in Computer Science with a minor in Mathematics.
+                </p>
+
+                <div className={styles.info}>
+                    <ul>
+                      <li><b>Dates</b>: Aug 2018 - May 2022</li>
+                      <li><b>City</b>: Raleigh, North Carolina</li>
+                    </ul>
+                    <ul>
+                      <li><b>Major GPA</b>: 4.00</li>
+                      <li><b>Overall GPA</b>: 3.78</li>
+                    </ul>
+                </div>
+                
+              </div>  
+              
+            </div>
+
+            <div><h2>Certifications</h2></div>
+
+            <div className={styles.body_education}>
+              <Image className={styles.ncsuimg} src="/spark.png" width={324} height={156}/>
+
+              <div className={styles.content}>
+                <p>
+                Databricks Certified Associate Developer for Apache Spark 3.0.
+                </p>
+
+                <div className={styles.info}>
+                    <ul>
+                      <li><b>Date</b>: June 2022</li>
+                    </ul>
+                    <ul>
+                      <li><b>Experation</b>: June 2024</li>
+                    </ul>
+                </div>
+                
+              </div>  
+              
+            </div>
+
+        </div>
+
+          
           
       </div>
     );
