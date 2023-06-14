@@ -66,7 +66,7 @@ export default function Projects() {
             <div><h2>Mathlantis - Computational Intelligence and Interactive Games Research</h2></div>
 
             <div className={styles.body_education}>
-              <Image className={styles.img} src="/spark.png" width={324} height={156}/>
+              <Image className={styles.img} src="/mathlantis.png" width={324} height={156}/>
 
               <div className={styles.content}>
                 <p>
