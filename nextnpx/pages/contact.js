@@ -53,7 +53,7 @@ export default function Contact() {
                   <BsLinkedin/>
                   &nbsp;&nbsp;&nbsp;LinkedIn
                 </h2>
-                <p><a href="https://www.linkedin.com/in/mikail-krochta-1216691a2/" target='_blank' rel="norederrer noopener">Link</a></p>
+                <p><a href="https://www.linkedin.com/in/mikail-krochta-1216691a2/" target='_blank' rel="norederrer noopener">Click Here</a></p>
                  
               </div>  
 
