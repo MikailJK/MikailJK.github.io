@@ -2,8 +2,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "output": "next export",
-    "start": "next start"
+    "start": "next start",
+    "output": "next export"
   },
   "dependencies": {
     "next": "^13.4.5",
