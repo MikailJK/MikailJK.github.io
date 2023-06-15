@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head'
 import styles from '../styles/projects.module.css'
 import NavBar from './posts/nav_bar';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 
 export default function Projects() {

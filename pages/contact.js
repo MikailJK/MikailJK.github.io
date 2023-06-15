@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head'
 import styles from '../styles/contact.module.css'
 import NavBar from './posts/nav_bar';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 import {BsFillHouseFill, BsLinkedin, BsFillTelephoneFill} from 'react-icons/bs';
 import {MdEmail} from 'react-icons/md';
