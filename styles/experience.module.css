@@ -66,3 +66,8 @@
     margin-inline-end: 0px;
     padding-inline-start: 40px
 }
+
+.content li{
+    color: 200, 0,0, ;
+    margin-bottom: 10px;
+}
