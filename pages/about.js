@@ -28,7 +28,11 @@ export default function About() {
 
               <div className={styles.content}>
                 <p>
-                I am currently a Computer Science Analyst at Campana & Schott in New York City. My team and I collaborate with clients to provide data and software solutions using cutting edge technology such as machine learning, natural language processing, and distributed cloud computing. I have learned so much working with Campana & Schott and am exited to continue building my expertise. When I am not expanding my knowledge of Computer Science I like to play Go/Baduk, work on solving the Rubik’s cube faster, and playing board games and video games with my friends.
+                Hello!<br></br> I'm Mikail, a Computer Scientist based in New York City. My expertise includes machine learning, automation, and distributed cloud computing. <br></br><br></br>
+
+                Continuous learning is a core value of mine, and I am dedicated to expanding my knowledge and expertise in computer science. Outside of work, I like to pursue my passion for intellectual challenges. You might find me playing board games, improving my Rubik's cube solving speed, or reading an exciting book.<br></br><br></br>
+
+                I am always seeking opportunities to collaborate with like-minded professionals and contribute to exciting projects that push the boundaries of technology. Let's connect and explore how we can make a positive impact together!
                 </p>
 
                 <div className={styles.info}>
@@ -66,7 +70,7 @@ export default function About() {
                     <ul>
                       <li><b>C++</b></li>
                       <li><b>C#</b></li>
-                      <li><b>C</b></li>
+                      <li><b>Unity</b></li>
                     </ul>
                     <ul>
                       <li><b>Git</b></li>
