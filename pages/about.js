@@ -38,13 +38,11 @@ export default function About() {
                 <div className={styles.info}>
                   {/* <div> */}
                     <ul>
-                      <li><b>Birthday</b>: June, 20 2000</li>
-                      <li><b>Phone</b>: 1 503 380 0752</li>
+                      <li><b>City</b>: New York, New York</li>
                     </ul>
                   {/* </div> */}
                   {/* <div> */}
                     <ul>
-                      <li><b>City</b>: New York, New York</li>
                       <li><b>Email</b>: mikailjk@gmail.com</li>
                     </ul>
                   {/* </div> */}
