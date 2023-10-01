@@ -22,13 +22,28 @@ export default function Experience() {
 
             <div className={styles.header}><h2>Experience</h2></div>
             
+            <div className={styles.experience}>
+
+              <div className={styles.content}>
+                <h2>Attainable Edge</h2>
+                <h3>Sept 2023 - Current</h3>
+                <h3>Software Developer</h3>
+                <ul>
+                  <li> Primary software developer responsible for creating and maintaining data extraction and analysis pipelines </li>
+                  <li>Integrate natural language processing capabilities into data analysis, enhancing the depth of insights generated</li>
+                  <li>Harness the power of FDA and GPT APIs to automate the data extraction process and streamlining access to vital information</li>
+                </ul>
+ 
+              </div>
+                
+            </div>
 
             <div className={styles.experience}>
 
               <div className={styles.content}>
                 <h2>Campana & Schott Inc.</h2>
-                <h3>May 2022 - May 2023</h3>
-                <h3>Computer Scientist</h3>
+                <h3>May 2022 - Aug 2023</h3>
+                <h3>Python Developer</h3>
                 <ul>
                   <li> Led an MLOps transformation project, combining DevOps and machine
                         learning best practices to greatly improved the scalability and deployment
